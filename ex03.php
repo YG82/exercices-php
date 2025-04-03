@@ -7,3 +7,24 @@
 //   somme += i
 // afficher somme
 
+$x = 0;
+$y = 100;
+$sum = 0;
+
+// do{
+//     echo $x. '<br>';
+//     $x++;
+// $somme += $x;
+
+// }while($x < 100);
+
+// echo "$somme";
+
+for ( $x = 0 ; $x <= $y ;$x++){
+    $sum += $x;  
+}
+echo "$sum";
+
+
+
+//toujours privilegier les boucles for pour eviter les boucles infinies

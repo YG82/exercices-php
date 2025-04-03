@@ -6,3 +6,17 @@
 //   concaténer caractère à une nouvelle chaîne
 // afficher la nouvelle chaîne
 
+
+function inverserChaine($chaine) {
+    $longueur = strlen($chaine);
+    $inverse = '';
+
+    for ($i = $longueur - 1; $i >= 0; $i--) {
+        $inverse .= $chaine[$i];
+    }
+
+    return $inverse;
+}
+
+echo inverserChaine("Bonjour"); 
+

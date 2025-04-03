@@ -7,3 +7,13 @@
 // sinon
 //   afficher 'impair'
 
+
+$x = 5;
+
+
+    if ($x % 2 == 0) {
+        echo "pair";
+ }
+ else 
+     echo "impair";    
+  

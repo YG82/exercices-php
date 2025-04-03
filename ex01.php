@@ -6,3 +6,11 @@
 //   afficher i
 // fin
 
+//boucle php while
+
+$x = 0;
+
+while($x <= 10){
+    echo  $x. '<br>';
+    $x++;
+}
